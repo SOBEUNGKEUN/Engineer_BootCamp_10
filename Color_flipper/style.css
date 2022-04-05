@@ -1,0 +1,40 @@
+/* 글씨체 변경 */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+/* reset.css : css 스타일 초기화 작업 */
+body{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(200, 120, 180);
+}
+/* 가운데 정렬 */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.container{
+    text-align: center;  
+}
+
+/* h3태크 디자인 */
+.container h3{
+    color: white;
+    background-color: black;
+    /* background-color: black; */
+    padding: 1.5rem;
+}
+
+/* 버튼 디자인 */
+.btn{
+    border: 3px dotted black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    padding: 0.5rem, 0.5rem;
+    margin: 30px;
+}
