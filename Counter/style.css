@@ -1,0 +1,32 @@
+/* 글씨체 변경 */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+ 
+main{
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.container{
+    text-align: center;
+}
+
+.container h2,p{
+    font-size: 3rem;
+}
+
+.container p{
+    color: grey;
+}
+
+.btn{
+    border: 2px dashed black;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    background: transparent;
+    padding: 1rem;
+    margin: 10px;
+    color: black;
+}
