@@ -160,11 +160,6 @@ public class TodoDAO {
 		try (Connection connection = DBUtils.getConnection(); // 자원을 해제할 수 있는 것만 넣을수 있다.
 				PreparedStatement preparedStatement = createPreparedStatement2(connection, updateQuery, todoNumber);) {
 			
-//			preparedStatement.setString(todo.getTitle());
-//			preparedStatement.setString(todo.getDescription());
-//			preparedStatement.setString(todo.getDueDate().toString());
-			
-
 			affectedRows = preparedStatement.executeUpdate();
 
 		} catch (Exception e) {
